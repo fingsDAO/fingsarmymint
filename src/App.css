@@ -1,17 +1,17 @@
 /* Customize your main colors in :root variables */
 :root {
-  --main-background-color: #343a5000;
-  --card-background-color: #897b8900;
+  --main-background-color: #343A50;
+  --card-background-color: #000000;
   --countdown-background-color: #433765;
-  --main-text-color:#dcf1f0;
-  --title-text-color:#f989f5;
+  --main-text-color:#F7F6F4;
+  --title-text-color:#3CBA8B;
 }
 
 body{
 /*  background-color:var(--main-background-color);*/
-  background: url("img/bg.png");
+  background: url("img/background.png");
   background-size: cover;
-  font-family: 'Patrick Hand', cursive;
+  font-family: 'Essays', cursive;
   font-size: 1.1em;
 }
 
@@ -21,6 +21,11 @@ h2, p{
 
 h3{
 font-weight: normal;
+}
+
+@font-face {
+  font-family: "Essays";
+  src: url("Essays1743.ttf");
 }
 
 
